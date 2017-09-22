@@ -1,0 +1,110 @@
+body,h2,h3,h4,h5 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1{ /*titulo*/
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Cedarville Cursive';font-size: 30px;
+    text-shadow: 1px 1px 1px #aaa;
+    color:#660066;
+}
+
+h2{
+    font-family: 'Andika';font-size: 12px;
+    font color:darkgrey;
+    white-space: pre;
+}
+
+h3{ /*textinho descricao*/
+    font-family: 'Andika';font-size: 11px;
+    font color:darkgrey;
+    margin-right:80px;
+    text-align:justify;
+}
+
+h4{ /*titulo do textinho*/
+    font-family: 'Cedarville Cursive';font-size: 30px;
+    font color:darkgrey;
+    margin-right:100px;
+    text-align:center;
+    color:#518691;
+}
+
+h5{
+    font-family: 'Andika';font-size: 12px;
+    font color:darkgrey;
+    margin-left:200px;
+    margin-right:200px;
+    text-align:justify;
+}
+
+.float{
+
+    margin: 30px;
+    margin-left:200px;
+    margin-top: -30px;
+    float: left;
+}
+
+
+
+body{
+
+    background-color: azure;
+    
+    
+}
+
+
+
+.container{
+    width: 980px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    display:inline; /* display:block deixa uma em cima da outra*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    /*border: 3px solid  #fff; border-radius: 5px deixa a borda arredondada */
+    
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+    
+    margin: 50px 24px 0px 0px; /*coloca uma margem entre as imagens*/
+}
+
+
+
+a:link {
+   color: #518691;
+}
+
+
+a:visited {
+    color: #660066;
+}
+
+
+a:hover {
+    color: #000000;
+}
+
+
+a:active {
+    color: #660066;
+}
+
+
+
+
+img:hover{ /* change image opacity */
+    opacity: .10;
+}
